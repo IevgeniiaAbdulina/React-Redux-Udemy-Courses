@@ -5,4 +5,4 @@
 > npx create-react-app my-react-app\
 > cd my-react-app\
 > code .\
-> npm start\
+> npm start
