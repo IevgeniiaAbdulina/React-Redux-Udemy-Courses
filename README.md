@@ -1,4 +1,4 @@
-Project has been created with Udemy courses [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)- Created by Stephen Grider.
+# Project has been created with Udemy courses [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)- Created by Stephen Grider.
 
 > Using [Semantic UI](https://semantic-ui.com/introduction/getting-started.html)\
 > Semantic UI install [links](https://cdnjs.com/libraries/semantic-ui)\
