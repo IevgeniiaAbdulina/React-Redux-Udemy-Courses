@@ -2,8 +2,8 @@
 
 > Using [Semantic UI](https://semantic-ui.com/introduction/getting-started.html)\
 > Semantic UI install [links](https://cdnjs.com/libraries/semantic-ui)\
-<!-- > add to html file: [https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css] -->
 > Using library, generate [fake data](https://github.com/marak/Faker.js/)
+<!-- > add to html file: [https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css] -->
 
 ```
 npm install --save faker
