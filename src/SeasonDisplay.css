@@ -11,14 +11,23 @@
 }
 
 .season-display.winter i {
-  color: blue;
+  color: #209ebb;
+  animation: icon-animation 16s linear infinite;
 }
 
 .season-display.summer i {
-  color: red;
+  color: #fc8500;
+  animation: icon-animation 16s linear infinite;
+}
+
+@keyframes icon-animation {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .season-display {
+  color: #023047;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,9 +35,9 @@
 }
 
 .winter {
-  background-color: aliceblue;
+  background-color: #8ecae6;
 }
 
 .summer {
-  background-color: orange;
+  background-color: #ffb701;
 }

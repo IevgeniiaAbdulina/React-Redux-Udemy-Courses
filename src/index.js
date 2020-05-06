@@ -36,11 +36,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="additional-border" style={{ border: "4px solid red" }}>
+      <div className="ui centered card" style={appContent}>
         {this.renderContent()}
       </div>
     );
   }
 }
+
+const appContent = {
+  top: "10vh",
+  width: "80vw",
+  height: "80vh",
+};
 
 ReactDOM.render(<App />, document.querySelector("#root"));
