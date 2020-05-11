@@ -10,7 +10,7 @@ _Using:_\
 [axios](https://github.com/axios/axios)\
 [Google Developers Console](https://console.developers.google.com/)\
 [YouTube API Search](https://developers.google.com/youtube/v3/docs/search/list)\
-[semantic-ui](https://cdnjs.com/libraries/semantic-ui)
+[semantic-ui](https://semantic-ui.com/elements/list.html)
 
 ```
 npm install axios@0.18.1
