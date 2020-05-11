@@ -6,7 +6,7 @@
 -Show a video list on the screen\
 -Show a selected video
 
-_using:_\
+_Using:_\
 [axios](https://github.com/axios/axios)\
 [Google Developers Console](https://console.developers.google.com/)\
 [YouTube API Search](https://developers.google.com/youtube/v3/docs/search/list)\
