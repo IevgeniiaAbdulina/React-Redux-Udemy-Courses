@@ -1,4 +1,6 @@
-const songReducer = () => {
+import { combineReducers } from "redux";
+
+const songsReducer = () => {
   return [
     {
       title: "Rock and Roll (Led Zeppelin)",
@@ -29,3 +31,8 @@ const selectedSongReducer = (selectedSong = null, action) => {
   }
   return selectedSong;
 };
+
+export default combineReducers({
+  songs: songsReducer,
+  selectedSong: selectedSongReducer,
+});
