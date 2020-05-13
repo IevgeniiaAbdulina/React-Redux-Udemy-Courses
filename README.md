@@ -9,7 +9,8 @@ _Using:_\
 [React-Redux GitHub](https://github.com/reduxjs/react-redux)\
 [axios](https://www.npmjs.com/package/axios)\
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
-[semantic-ui](https://cdnjs.com/libraries/semantic-ui)\
+[semantic-ui](https://semantic-ui.com/elements/list.html)\
+[semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
 [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
 ```
