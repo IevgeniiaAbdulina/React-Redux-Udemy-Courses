@@ -11,11 +11,13 @@ _Using:_\
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
 [semantic-ui](https://semantic-ui.com/elements/list.html)\
 [semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
-[JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+[JSONPlaceholder API](https://jsonplaceholder.typicode.com/)\
+[Lodash](https://lodash.com/docs/#memoize)
 
 ```
 create-react-app my-app
 npm install --save redux react-redux axios redux-thunk
+npm install --save lodash
 ```
 
 <img src="public/img/songs.png" width="500">
