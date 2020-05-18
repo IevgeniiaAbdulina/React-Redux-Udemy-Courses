@@ -2,6 +2,7 @@
 
 -Navigation with React Router.\
 -LogIn with Google.\
+-CRUD\
 -Show list of streams.\
 -Show particular stream details.\
 -Options with my streams: Create / Edit / Delete stream.
@@ -14,7 +15,13 @@ _Using:_\
 [semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
 
 ```
-
+mkdir streams
+cd streams
+create-react-app client
+ls
+cd client
+code .
+npm start
 ```
 
 <img src="public/img/streams.png" width="500">
