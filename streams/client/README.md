@@ -17,7 +17,8 @@ _Using:_\
 [semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
 [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)\
 [OAuth](https://developers.google.com/identity/protocols/oauth2/scopes)\
-[Google Developers Console](https://console.developers.google.com/)
+[Google Developers Console](https://console.developers.google.com/)\
+[GAPI Documentation - Authentication](https://developers.google.com/identity/sign-in/web/reference#authentication)
 
 ```
 mkdir streams
