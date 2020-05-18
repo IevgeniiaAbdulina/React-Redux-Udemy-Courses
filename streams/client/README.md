@@ -8,7 +8,6 @@
 -Options with my streams: Create / Edit / Delete stream.
 
 _Using:_\
-[React-Redux GitHub](https://github.com/reduxjs/react-redux)\
 
 <!-- [axios](https://www.npmjs.com/package/axios)\ -->
 <!-- [Redux Thunk](https://github.com/reduxjs/redux-thunk)\ -->
@@ -18,7 +17,8 @@ _Using:_\
 [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)\
 [OAuth](https://developers.google.com/identity/protocols/oauth2/scopes)\
 [Google Developers Console](https://console.developers.google.com/)\
-[GAPI Documentation - Authentication](https://developers.google.com/identity/sign-in/web/reference#authentication)
+[GAPI Documentation - Authentication](https://developers.google.com/identity/sign-in/web/reference#authentication)\
+[React-Redux GitHub](https://github.com/reduxjs/react-redux)\
 
 ```
 mkdir streams
@@ -29,6 +29,7 @@ cd client
 code .
 npm start
 npm install --save react-router-dom
+npm install --save redux react-redux
 ```
 
 -Add to _public/index.html_ :
