@@ -22,6 +22,7 @@ ls
 cd client
 code .
 npm start
+npm install --save react-router-dom
 ```
 
 <img src="public/img/streams.png" width="500">
