@@ -21,14 +21,8 @@ _Using:_\
 [React-Redux GitHub](https://github.com/reduxjs/react-redux)\
 [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)\
 [Redux Dev Extension - Advanced store setup](https://github.com/zalmoxisus/redux-devtools-extension#12-advanced-store-setup)\
-<br />
--Redux Devtools persist all actions and state across refresh:
-
-```
-http://localhost:3000/?debug_session=<some_string>
-```
-
-<br />
+[Redux Form](https://redux-form.com/8.3.0/)\
+[Synchronous Validation](https://redux-form.com/8.2.2/examples/syncvalidation/)
 
 ```
 mkdir streams
@@ -40,6 +34,7 @@ code .
 npm start
 npm install --save react-router-dom
 npm install --save redux react-redux
+npm install --save redux-form
 ```
 
 -Add to _public/index.html_ :
@@ -47,6 +42,14 @@ npm install --save redux react-redux
 ```
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <script src="https://apis.google.com/js/api.js"></script>
+```
+
+<br />
+
+_Debug session_ - Redux Devtools persist all actions and state across refresh:
+
+```
+http://localhost:3000/?debug_session=<some_string>
 ```
 
 <img src="public/img/streams.png" width="500">
