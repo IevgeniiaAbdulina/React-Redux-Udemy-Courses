@@ -19,6 +19,16 @@ _Using:_\
 [Google Developers Console](https://console.developers.google.com/)\
 [GAPI Documentation - Authentication](https://developers.google.com/identity/sign-in/web/reference#authentication)\
 [React-Redux GitHub](https://github.com/reduxjs/react-redux)\
+[Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)\
+[Redux Dev Extension - Advanced store setup](https://github.com/zalmoxisus/redux-devtools-extension#12-advanced-store-setup)\
+<br />
+-Redux Devtools persist all actions and state across refresh:
+
+```
+http://localhost:3000/?debug_session=<some_string>
+```
+
+<br />
 
 ```
 mkdir streams
