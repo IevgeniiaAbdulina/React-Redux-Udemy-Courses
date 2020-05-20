@@ -22,7 +22,8 @@ _Using:_\
 [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)\
 [Redux Dev Extension - Advanced store setup](https://github.com/zalmoxisus/redux-devtools-extension#12-advanced-store-setup)\
 [Redux Form](https://redux-form.com/8.3.0/)\
-[Synchronous Validation](https://redux-form.com/8.2.2/examples/syncvalidation/)
+[Synchronous Validation](https://redux-form.com/8.2.2/examples/syncvalidation/)\
+[JSON Server](https://www.npmjs.com/package/json-server)\
 
 ```
 mkdir streams
@@ -35,6 +36,27 @@ npm start
 npm install --save react-router-dom
 npm install --save redux react-redux
 npm install --save redux-form
+
+```
+
+In new terminal window create a server project folder:
+
+```
+cd ..
+
+ls
+$ client
+
+mkdir api
+cd api
+npm init
+
+ls
+$ package.json
+
+npm install --save json-server
+code .
+npm start
 ```
 
 -Add to _public/index.html_ :
