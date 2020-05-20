@@ -9,9 +9,6 @@
 
 _Using:_\
 
-<!-- [axios](https://www.npmjs.com/package/axios)\ -->
-<!-- [Redux Thunk](https://github.com/reduxjs/redux-thunk)\ -->
-
 [semantic-ui](https://semantic-ui.com/elements/list.html)\
 [semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
 [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)\
@@ -24,6 +21,10 @@ _Using:_\
 [Redux Form](https://redux-form.com/8.3.0/)\
 [Synchronous Validation](https://redux-form.com/8.2.2/examples/syncvalidation/)\
 [JSON Server](https://www.npmjs.com/package/json-server)\
+[axios](https://www.npmjs.com/package/axios)\
+[Redux Thunk](https://github.com/reduxjs/redux-thunk)\
+
+> client
 
 ```
 mkdir streams
@@ -36,10 +37,13 @@ npm start
 npm install --save react-router-dom
 npm install --save redux react-redux
 npm install --save redux-form
+npm install --save axios redux-thunk
 
 ```
 
-In new terminal window create a server project folder:
+> api
+
+-In new terminal window create a server folder in a streams project:
 
 ```
 cd ..
