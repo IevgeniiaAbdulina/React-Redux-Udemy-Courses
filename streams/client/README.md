@@ -25,7 +25,8 @@ _Using:_
 [JSON Server](https://www.npmjs.com/package/json-server)\
 [axios](https://www.npmjs.com/package/axios)\
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
-[Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)
+[Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)\
+[Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)
 
 > client
 
