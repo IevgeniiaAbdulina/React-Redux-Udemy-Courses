@@ -7,7 +7,9 @@
 -Show particular stream details.\
 -Options with my streams: Create / Edit / Delete stream.
 
-_Using:_\
+<img src="public/img/streams.png" width="500">
+
+_Using:_
 
 [semantic-ui](https://semantic-ui.com/elements/list.html)\
 [semantic-ui cdn](https://cdnjs.com/libraries/semantic-ui)\
@@ -23,6 +25,7 @@ _Using:_\
 [JSON Server](https://www.npmjs.com/package/json-server)\
 [axios](https://www.npmjs.com/package/axios)\
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
+[Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)
 
 > client
 
@@ -34,10 +37,12 @@ ls
 cd client
 code .
 npm start
+
 npm install --save react-router-dom
 npm install --save redux react-redux
 npm install --save redux-form
 npm install --save axios redux-thunk
+npm install --save lodash
 
 ```
 
@@ -77,5 +82,3 @@ _Debug session_ - Redux Devtools persist all actions and state across refresh:
 ```
 http://localhost:3000/?debug_session=<some_string>
 ```
-
-<img src="public/img/streams.png" width="500">
