@@ -27,6 +27,7 @@ _Using:_
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
 [Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)\
 [Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)
+[Lodash \_.pick()](https://lodash.com/docs/4.17.15#pick)
 
 > client
 
