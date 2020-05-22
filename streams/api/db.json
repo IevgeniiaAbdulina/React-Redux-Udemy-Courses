@@ -1,30 +1,20 @@
 {
   "streams": [
     {
-      "title": "my stream",
-      "description": "create a new stream here",
-      "id": 1
-    },
-    {
-      "title": "new stream",
-      "description": "good stream here",
-      "id": 2
-    },
-    {
-      "title": "Yeeeeej",
-      "description": "Created this new stream!",
+      "title": "Udemy courses",
+      "description": "Modern React with Redux with the best teacher ever!",
       "userId": "102457473971904414998",
       "id": 3
     },
     {
-      "title": "test 1",
-      "description": "desc 2",
+      "title": "Try it now!",
+      "description": "Learn more about budget.",
       "userId": "102457473971904414998",
       "id": 4
     },
     {
-      "title": "1tests",
-      "description": "2tests",
+      "title": "Watch this video",
+      "description": "It is very helpful for your programming skills",
       "userId": "102457473971904414998",
       "id": 5
     }
