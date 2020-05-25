@@ -7,9 +7,16 @@
       "id": 3
     },
     {
-      "title": "Streaming Component",
-      "description": "This stream about refactoring!!!",
-      "id": 6
+      "title": "New stream today",
+      "description": "Check  my new stream!",
+      "userId": "102457473971904414998",
+      "id": 7
+    },
+    {
+      "title": "One more stream ",
+      "description": "Good news!!!",
+      "userId": "102457473971904414998",
+      "id": 8
     }
   ]
 }
