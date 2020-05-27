@@ -28,7 +28,8 @@ _Using:_
 [Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)\
 [Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)\
 [Lodash \_.pick()](https://lodash.com/docs/4.17.15#pick)\
-[Node-Media-Server](https://github.com/illuspas/Node-Media-Server#npm-version-recommended)
+[Node-Media-Server](https://github.com/illuspas/Node-Media-Server#npm-version-recommended)\
+[OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
 
 ### client
 
