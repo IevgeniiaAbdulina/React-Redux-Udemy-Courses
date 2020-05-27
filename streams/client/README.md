@@ -29,7 +29,8 @@ _Using:_
 [Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)\
 [Lodash \_.pick()](https://lodash.com/docs/4.17.15#pick)\
 [Node-Media-Server](https://github.com/illuspas/Node-Media-Server#npm-version-recommended)\
-[OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+[OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.\
+[flv.js](https://www.npmjs.com/package/flv.js) - An HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash.
 
 ### client
 
@@ -47,6 +48,7 @@ npm install --save redux react-redux
 npm install --save redux-form
 npm install --save axios redux-thunk
 npm install --save lodash
+npm install --save flv.js
 
 ```
 
