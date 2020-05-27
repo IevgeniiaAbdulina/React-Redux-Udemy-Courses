@@ -1,4 +1,4 @@
-**Stream videos project - clone of twitch.tv**
+# Stream videos project
 
 -Navigation with React Router.\
 -LogIn with Google.\
@@ -26,10 +26,10 @@ _Using:_
 [axios](https://www.npmjs.com/package/axios)\
 [Redux Thunk](https://github.com/reduxjs/redux-thunk)\
 [Lodash \_.omit()](https://lodash.com/docs/4.17.15#omit)\
-[Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)
+[Lodash \_.mapKeys()](https://lodash.com/docs/4.17.15#mapKeys)\
 [Lodash \_.pick()](https://lodash.com/docs/4.17.15#pick)
 
-> client
+### client
 
 ```
 mkdir streams
@@ -48,7 +48,7 @@ npm install --save lodash
 
 ```
 
-> api
+### api
 
 -In new terminal window create a server folder in a streams project:
 
@@ -76,8 +76,6 @@ npm start
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <script src="https://apis.google.com/js/api.js"></script>
 ```
-
-<br />
 
 _Debug session_ - Redux Devtools persist all actions and state across refresh:
 
