@@ -11,11 +11,4 @@ cd translate
 code .
 npm start
 ```
-
-_Add semantic-ui css style to the **index.html** file:_
-
-```
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
-```
-
 <img src="public/img/translate.png" width="500">
