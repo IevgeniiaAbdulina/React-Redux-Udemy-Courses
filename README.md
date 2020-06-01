@@ -7,6 +7,7 @@ _Using:_\
 
 ```
 create-react-app hooks-simple
+npm install --save axios
 code .
 npm start
 ```
