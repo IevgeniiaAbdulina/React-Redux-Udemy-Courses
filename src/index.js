@@ -1,52 +1,29 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 import Spinner from "./Spinner";
 
-class App extends Component {
-  state = {
-    latitude: null,
-    errMessage: "",
-  };
+const App = () => {
+  const [lat, setLat] = useState(null);
+  const [errMessage, setErrMessage] = useState("");
 
-  componentDidMount() {
+  useEffect(() => {
     window.navigator.geolocation.getCurrentPosition(
-      (position) => {
-        this.setState({
-          latitude: position.coords.latitude,
-        });
-      },
-      (err) => {
-        this.setState({
-          errMessage: err.message,
-        });
-      }
+      (position) => setLat(position.coords.latitude),
+      (err) => setErrMessage(err.message)
     );
+  }, []);
+
+  let content;
+  if (errMessage) {
+    content = <div>Error: {errMessage}</div>;
+  } else if (lat) {
+    content = <SeasonDisplay lat={lat} />;
+  } else {
+    content = <Spinner message="Please accept location request" />;
   }
 
-  renderContent() {
-    if (this.state.errMessage && !this.state.latitude) {
-      return <div>Error: {this.state.errMessage}</div>;
-    }
-    if (!this.state.errMessage && this.state.latitude) {
-      return <SeasonDisplay lat={this.state.latitude} />;
-    }
-    return <Spinner message="Please accept location request" />;
-  }
-
-  render() {
-    return (
-      <div className="ui centered card" style={appContent}>
-        {this.renderContent()}
-      </div>
-    );
-  }
-}
-
-const appContent = {
-  top: "10vh",
-  width: "80vw",
-  height: "80vh",
+  return <div className="border red">{content}</div>;
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));

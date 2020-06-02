@@ -1,15 +1,17 @@
-# Project has been created with Udemy courses [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)- Created by Stephen Grider.
+# Seasons project with Hooks system
 
-Projects from this course are in branches.<br />
+-Show winter or summer season, depends on location.<br />
 
-### Projects: 
-- JSX
-- Comments project
-- Season project
-- Search images
-- Video browser app
-- Songs list project
-- Plog posts
-- Streams project
-- Translate
-- Hooks simple
+_Using:_\
+[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)\
+[Geolocation.getCurrentPosition()](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition)
+
+get **Seasons Project**
+
+```
+cd seasons-hooks
+npm i
+npm start
+```
+
+<img src="public/img/season.png" width="500" >
